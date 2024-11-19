@@ -1,0 +1,25 @@
+{
+    "name": "backend-2-seguridad-automotor",
+    "version": "1.0.0",
+    "description": "Backend 2 - Proyecto Seguridad del Automotor",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-session": "^1.18.1",
+        "mongoose": "^7.4.3",
+        "passport": "^0.6.0",
+        "passport-jwt": "^4.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "author": "Tu Nombre",
+    "license": "ISC"
+}
