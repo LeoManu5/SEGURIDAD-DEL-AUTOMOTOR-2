@@ -1,7 +1,7 @@
 const express = require('express');
 const session = require('express-session');
 const passport = require('passport');
-const { configurePassport } = require('./config/passport'); // Usando require
+const { configurePassport } = require('./config/passport'); 
 
 const app = express();
 
@@ -11,7 +11,7 @@ app.use(session({
     saveUninitialized: true,
 }));
 
-// Configuración de Passport
+
 configurePassport(app);
 
 app.listen(8080, () => {
